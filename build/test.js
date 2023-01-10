@@ -2,6 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.changeText = void 0;
 function changeText(element) {
-    element.innerHTML = "Test";
+    element.textContent = "Test";
 }
 exports.changeText = changeText;
