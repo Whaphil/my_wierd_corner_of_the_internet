@@ -1,3 +1,6 @@
 import {changeText} from "./test"
-const testButton = document.getElementById("test-button")!;
-testButton.addEventListener("click",(event)=>changeText(testButton))
+import helloWorld from "./also_test";
+const changeTextButton = document.getElementById("change-text-button")!;
+changeTextButton.addEventListener("click",(event)=>changeText(changeTextButton));
+const helloWorldButton = document.getElementById("hello-world-button")!;
+helloWorldButton.addEventListener("click",(event)=>helloWorld())
